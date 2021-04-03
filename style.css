@@ -1,0 +1,61 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color:burlywood;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body{
+    background-color:burlywood;
+    margin: 0px;
+}
+.item{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    margin:50px ;
+
+}
+
+.origami{
+    border-radius: 25px;
+    padding:30px;
+    margin:25px;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+a:link{
+    color:brown;
+    text-decoration: none;
+}
+
+a:visited{
+    color:brown;
+    text-decoration: none;
+}
+
+.item{
+    position: relative;
+}
+
+
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
